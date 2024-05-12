@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![logoApp](https://github.com/MarquezE92/Challenge_ContactShip/assets/106556305/dbbe424b-69a0-43a7-84e5-2269820bf14b)
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), created to solve a ContactShip Frontend/Fullstack challenge.
+
+## The challenge
+Desarrolla una pequeña aplicación web utilizando Next.js, Tailwind CSS y TypeScript que muestre la transcripción de una llamada telefónica en un componente que mapee cada mensaje tanto del agente como del usuario. La aplicación debe permitir al usuario hacer clic en cualquier parte de la transcripción y saltar automáticamente a esa parte específica del audio.
 
 ## Getting Started
 
@@ -15,8 +20,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
