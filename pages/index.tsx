@@ -2,13 +2,13 @@ import { useRef } from "react";
 import { Inter } from "next/font/google";
 import Transcription from "@/components/Transcription";
 import transcription from "./utils";
-import audio from "../audio/Test_Call.wav";
-import logo from "../public/logoApp.png";
+import audio from "../public/Test_Call.wav";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   const playFrom = (time: number) => {
     if (audioRef.current) {
@@ -18,6 +18,10 @@ export default function Home() {
   };
 
   return (
+    <>
+    <Head>
+      <title>Audio Salto</title>
+    </Head>
     <main
       className={`flex min-h-screen flex-col p-4 md:p-24 ${inter.className} bg-gradient-to-b from-cyan-950 to-indigo-700`}
     >
@@ -33,5 +37,6 @@ export default function Home() {
       </div>
 
     </main>
+    </>
   );
 }
