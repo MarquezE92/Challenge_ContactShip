@@ -5,7 +5,7 @@ start: number,
 end: number
 }
 
-const transcription: Message[] = [
+export const transcription: Message[] = [
     {
     "content": "¡Hola! Soy Maria, asesora de admisiones de la Universidad Online. ¿En qué puedo ayudarte hoy?",
     "role": "agent",
@@ -49,4 +49,3 @@ const transcription: Message[] = [
     "end": 61.523
     }
     ]
-    export default transcription;
