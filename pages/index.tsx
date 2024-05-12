@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { Inter } from "next/font/google";
 import Transcription from "@/components/Transcription";
-import {transcription} from "./utils";
+import {transcription} from "../utils";
 import audio from "../public/Test_Call.wav";
 import Head from "next/head";
 

@@ -1,4 +1,4 @@
-import { Message } from "@/pages/utils"
+import { Message } from "@/utils"
 
 interface TranscriptionProps {
     transcription: Message[],
