@@ -1,4 +1,4 @@
-interface Message {
+export interface Message {
 content: string,
 role: string,
 start: number,
